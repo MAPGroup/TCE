@@ -9,7 +9,9 @@ Dataset:
 
 
 Train:
+
 python train.py --data_dir "train" --train_sets fog --test_sets fog --model_save_dir ".\output_result" -train_batch_size 16 -train_epoch 100
 
 Test:
+
 python test.py  --data_dir "test  --model_file ".\output_result\epoch100.pkl"  --model_save_dir ".\results"
